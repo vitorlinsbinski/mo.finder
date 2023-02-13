@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+    &.lock-screen {
+        overflow: hidden;
+    }
+}
+
+body {
+    background-color: $dark-bg;
+    overflow-x: hidden;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    
+    &[disabled] {
+        cursor: not-allowed;
+    }
+}

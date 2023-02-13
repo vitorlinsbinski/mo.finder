@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movienow</title>
+
+
+    <!-- <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+        
+    <link rel="stylesheet" href="./css/plugins.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="loading" id="js-loading">
+        <div class="overlay">
+
+        </div>
+        <div class="circle">
+        </div>
+
+        
+
+    </div>
+    <header id="js-header">
+        <div class="container">
+            <div class="left">
+                <button class="back-btn" id="js-back-btn">
+                    <img src="./assets/icon-arrow-left.svg" alt="">
+                </button>
+                <a href="#section-hero" class="logo">mo.Finder</a>
+
+                <nav id="js-nav-header">
+                    <ul>
+                        <li><a href="#section-vale-a-pena-ver" id="js-menu-item">Descubra</a></li>
+                        <li><a href="#section-top-avaliados" id="js-menu-item">Top mais avaliados</a></li>
+                        <li><a href="#section-novos" id="js-menu-item">Novos</a></li>
+                        <li><a href="#section-nos-cinemas" id="js-menu-item">Nos cinemas</a></li>
+                        <li><a href="#section-por-genero" id="js-menu-item">Por gênero</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="right">
+                <button class="search-btn" id="js-search-btn">
+                    <img src="./assets/icon-search.svg" alt="Search Icon">
+                </button>
+    
+                <button class="btn-menu" id="js-btn-menu">
+                    <img src="./assets/icon-menu.svg" alt="">
+                </button>
+            </div>
+
+
+
+        </div>
+    </header>
+    
+    <div class="mobile-menu" id="js-mobile-menu">
+        <div class="overlay">
+
+        </div>
+
+        <div class="box">
+            <div class="close-btn" id="js-btn-close-menu">
+                <img src="./assets/icon-close.svg" alt="">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#section-vale-a-pena-ver" id="js-menu-item">Descubra</a></li>
+                    <li><a href="#section-top-avaliados" id="js-menu-item">Top mais avaliados</a></li>
+                    <li><a href="#section-novos" id="js-menu-item">Novos</a></li>
+                    <li><a href="#section-nos-cinemas" id="js-menu-item">Nos cinemas</a></li>
+                    <li><a href="#section-por-genero" id="js-menu-item">Por gênero</a></li>
+                </ul>
+
+                <button class="search-btn">
+                    <img src="./assets/icon-search.svg" alt="Search Icon" id="js-search-btn">
+                </button>
+            </nav>
+        </div>
+    </div>
+
+    <main id="main-area">
+        <section class="s-hero" id="section-hero">
+            <div class="swiper-hero">
+                <div class="swiper-wrapper" id="js-slides-hero">
+                    <!-- <div class="swiper-slide">
+                        <div class="movie">
+                            <div class="info-container">
+                                <div class="container">
+                                    <div class="tags" data-swiper-parallax="-2%">
+                                        <div class="tag" >
+                                            <div class="content">
+                                                <div class="icon">
+                                                    <img src="./assets/icon-star.svg" alt="Star Icon">
+                                                </div>
+                                    
+                                                <span class="info">
+                                                    6.5
+                                                </span>
+                                            </div>
+                                
+                                        </div>
+                    
+                                        <div class="tag">
+                                            <div class="content">
+                                                <div class="icon">
+                                                    <img src="./assets/icon-clock.svg" alt="Clock Icon">
+                                                </div>
+                                    
+                                                <span class="info">
+                                                    2h 30min
+                                                </span>
+                                            </div>
+                                
+                                        </div>
+                                
+                                        <div class="tag">
+                                            <div class="content">
+                                                <div class="icon">
+                                                    <img src="./assets/icon-calendar.svg" alt="Calendar Icon">
+                                                </div>
+                                    
+                                                <span class="info">
+                                                    2022-12-28
+                                                </span>
+                                            </div>
+                                
+                                        </div>
+                                    </div>
+                
+                                    <div class="text" data-swiper-parallax="-15%">
+                                        <h1>Pantera Negra: Wakanda para Sempre</h1>
+                                    
+                                        <strong>ação - aventura - ficção científica</strong>
+                        
+                                        <p>A rainha Ramonda, Shuri, M'Baku, Okoye e as poderosas Dora Milaje lutam para proteger sua nação após a morte do rei T'Challa. Com a ajuda da Cão de Guerra Nakia e de Everett Ross, eles tentam encontrar um novo caminho para Wakanda.</p>
+                                    </div>
+                    
+                
+                    
+                                    <div class="btns" data-swiper-parallax="1%">
+                    
+                                        <button class="btn call-to-action btn-primary">
+                                            <div class="content">
+                                                <div class="icon">
+                                                    <img src="./assets/icon-play.svg" alt="Play Icon">
+                                                </div>
+                                
+                                                <span>Ver trailer</span>
+                                            </div>
+                                        </button>
+                                
+                                        <button class="btn call-to-action btn-secondary">
+                                            <div class="content">
+                                                <div class="icon">
+                                                    <img src="./assets/icon-info.svg" alt="Info Icon">
+                                                </div>
+                                
+                                                <span>ver detalhes</span>
+                                            </div>
+                                        </button>
+                                    </div>
+
+                                    <div class="nav-swiper">
+                                        <div class="sw swiper-button-prev hero">
+                                            <img src="./assets/icon-arrow-left.svg" alt="">
+                                        </div>
+
+                                        <div class="sw swiper-button-next hero">
+                                            <img src="./assets/icon-arrow-right.svg" alt="">
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                
+                            </div>
+                
+                            <div class="image parallax-bg" data-swiper-parallax="5%">
+                                <img src="./assets/backdrops/wakanda.jpg" alt="">
+                                <div class="video">
+                                    <iframe src="https://www.youtube.com/embed/gotRAlASXmY?autoplay=1&mute=1&loop=1" width="560" height="315" title="Pantera Negra: Wakanda para Sempre | Marvel Studios | Trailer Oficial Legendado" frameborder="0" allowfullscreen></iframe>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> -->
+
+                    
+
+
+                </div>
+
+
+            </div>
+
+            <div class="container">
+                <div class="nav-slides">
+                    <div class="btns">
+                        <div class="sw swiper-button-next hero">
+                            <img src="./assets/icon-arrow-right.svg" alt="">
+                        </div>
+                        <div class="sw swiper-button-prev hero">
+                            <img src="./assets/icon-arrow-left.svg" alt="">
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section class="s-discover" id="section-vale-a-pena-ver">
+            <div class="container">
+                <div class="top">
+                    <div class="left">
+                        <h2>Descubra</h2>
+                    </div>
+
+                    <div class="right">
+                        <button class="btn view-all" id="btn-view-all-movies" section-type="vale-a-pena-ver">
+                            ver todos
+                        </button>
+
+                        <div class="nav-movie">
+                            <div class="swiper-button-prev discover">
+                                <img src="./assets/icon-arrow-left.svg" alt="">
+                            </div>  
+
+                            <div class="swiper-button-next discover">
+                                <img src="./assets/icon-arrow-right.svg" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="slide-movie-discover">
+                        <div class="swiper-wrapper" id="js-all-discover-movies">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-movie-cards top-rated" id="section-top-avaliados">
+            <div class="container">
+                <div class="top">
+                    <div class="left">
+                        <h2>Top mais avaliados</h2>
+                    </div>
+
+                    <div class="right">
+                        <button class="btn view-all" id="btn-view-all-movies" section-type="top-mais-avaliados">
+                            ver todos
+                        </button>
+
+                        <div class="nav-movie">
+                            <div class="swiper-button-prev top-rated">
+                                <img src="./assets/icon-arrow-left.svg" alt="">
+                            </div>  
+
+                            <div class="swiper-button-next top-rated">
+                                <img src="./assets/icon-arrow-right.svg" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+                <div class="bottom">
+                    <div class="slide-movie top-rated">
+                        <div class="swiper-wrapper" id="js-top-rated-movies">
+                            <!-- <div class="swiper-slide">
+                                <button class="card-movie-poster rating" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster rating" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster rating" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster rating" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster rating" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div> -->
+
+                            
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-movie-cards popular" id="section-novos">
+            <div class="container">
+                <div class="top">
+                    <div class="left">
+                        <h2>Novos</h2>
+                    </div>
+
+                    <div class="right">
+                        <button class="btn view-all" id="btn-view-all-movies" section-type="novos">
+                            ver todos
+                        </button>
+
+                        <div class="nav-movie">
+                            <div class="swiper-button-prev popular">
+                                <img src="./assets/icon-arrow-left.svg" alt="">
+                            </div>  
+
+                            <div class="swiper-button-next popular">
+                                <img src="./assets/icon-arrow-right.svg" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+                <div class="bottom">
+                    <div class="slide-movie popular">
+                        <div class="swiper-wrapper" id="js-popular-movies">
+                            <!-- <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div> -->
+                            
+                            
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-movie-cards now-playing" id="section-nos-cinemas">
+            <div class="container">
+                <div class="top">
+                    <div class="left">
+                        <h2>Nos cinemas</h2>
+                    </div>
+
+                    <div class="right">
+                        <button class="btn view-all" id="btn-view-all-movies" section-type="nos-cinemas">
+                            ver todos
+                        </button>
+
+                        <div class="nav-movie">
+                            <div class="swiper-button-prev now-playing">
+                                <img src="./assets/icon-arrow-left.svg" alt="">
+                            </div>  
+
+                            <div class="swiper-button-next now-playing">
+                                <img src="./assets/icon-arrow-right.svg" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+                <div class="bottom">
+                    <div class="slide-movie now-playing">
+                        <div class="swiper-wrapper" id="js-now-playing-area">
+                            <!-- <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div> -->
+                            
+                            
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="s-movie-cards by-genre" id="section-por-genero">
+            <div class="container">
+                <div class="top">
+                    <div class="left">
+                        <h2>Populares por gênero</h2>
+
+                        <button class="btn view-all" id="btn-view-all-movies" section-type="por-genero">
+                            ver todos
+                        </button>
+
+                    </div>
+
+                    <div class="right">
+                        
+                        <div class="select-genre" id="js-select-genre">
+                            <button class="item-selected" >
+                                <strong id="js-item-selected">Selecione um gênero</strong>
+                            </button>
+                            
+                
+                            <ul class="dropdown-select" id="js-dropdown-select">
+
+                            </ul>
+                        </div>
+
+
+
+                        <div class="nav-movie">
+                            <div class="swiper-button-prev now-playing">
+                                <img src="./assets/icon-arrow-left.svg" alt="">
+                            </div>  
+
+                            <div class="swiper-button-next now-playing">
+                                <img src="./assets/icon-arrow-right.svg" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                
+                <div class="bottom">
+                    <div class="slide-movie by-genre">
+                        <div class="swiper-wrapper" id="js-genre-area">
+                            <!-- <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <button class="card-movie-poster" id="js-card-movie">
+                                    <div class="image">
+                                        <img src="./assets/backdrops/6sMnY4fEVAfdadhANhGnNckxsmx.jpg" alt="">
+                                    </div>
+                        
+                                    <div class="position-rating">
+                                        <span>1</span>
+                                    </div>
+                        
+                                    <div class="tag">
+                                        <div class="content">
+                                            <div class="icon">
+                                                <img src="./assets/icon-star.svg" alt="Star Icon">
+                                            </div>
+                                
+                                            <span class="info">
+                                                6.5
+                                            </span>
+                                        </div>
+                            
+                                    </div>
+                                </button>
+                            </div> -->
+                            
+                            
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <section class="s-all-movies" id="js-all-movies-section">
+        <div class="container">
+            <div class="title">
+                <h2 id="title-type-all-movies"></h2>
+
+            </div>
+
+            <div class="select-genre" id="js-select-genre">
+                <button class="item-selected" >
+                    <strong id="js-item-selected">Selecione um gênero</strong>
+                </button>
+                
+    
+                <ul class="dropdown-select" id="js-dropdown-select">
+
+                </ul>
+            </div>
+
+            <div class="movies" id="js-all-movies-area">
+                
+        
+            </div>
+
+            <div class="area-btn">
+                <button class="btn view-all" id="btn-load-more">
+                    carregar mais
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="s-search-for-a-movie" id="js-search-movie-section">
+        <div class="container">
+            <div class="search-area">
+                <input type="text" name="search" id="js-search-input" placeholder="digite o título do filme" class="search-input">
+
+                <button class="icon" id="btn-search-input">
+                    <img src="./assets/icon-search.svg" alt="Search Icon">
+                </button>
+            </div>
+
+            <div class="movies" id="js-movies-search-result"></div>
+        </div>
+    </section>
+
+    <div class="modal " id="js-movie-modal">
+        <div class="overlay">
+
+        </div>
+
+
+
+        <div class="box" id="js-modal-box">
+            <div class="where-to-watch desktop">
+                <h3 id="js-watch-text"></h3>
+                <ul id="js-watch-providers-list-desktop">
+
+                </ul>
+            </div>
+
+            <div class="icon-close" id="btn-close-modal">
+                <img src="./assets/icon-close.svg" alt="Close icon">
+            </div>
+
+            <div class="left-container">
+                <div class="where-to-watch mobile">
+                    <h3 id="js-watch-text"></h3>
+                    <ul id="js-watch-providers-list">
+
+                    </ul>
+                </div>
+
+                <div class="bg" id="js-modal-bg">
+                </div>
+
+                <button class="btn call-to-action btn-primary modal-btn" id="btn-watch-trailer-modal">
+                    <div class="content">
+                        <div class="icon">
+                            <img src="./assets/icon-play.svg" alt="Play Icon">
+                        </div>
+        
+                        <span>Assistir ao trailer</span>
+                    </div>
+                </button>
+
+
+
+            </div>
+
+            <div class="right-container">
+                <div class="info">
+
+                    <div class="tags">
+                        <div class="tag">
+                            <div class="content">
+                                <div class="icon">
+                                    <img src="./assets/icon-star.svg" alt="Star Icon">
+                                </div>
+                    
+                                <span class="info" id="js-tag-rating">
+                                    
+                                </span>
+                            </div>
+                
+                        </div>
+
+                        <div class="tag">
+                            <div class="content">
+                                <div class="icon">
+                                    <img src="./assets/icon-clock.svg" alt="Clock Icon">
+                                </div>
+                    
+                                <span class="info" id="js-tag-runtime">
+                                    
+                                </span>
+                            </div>
+                
+                        </div>
+                
+                        <div class="tag">
+                            <div class="content">
+                                <div class="icon">
+                                    <img src="./assets/icon-calendar.svg" alt="Calendar Icon">
+                                </div>
+                    
+                                <span class="info" id="js-tag-release-date">
+                                    
+                                </span>
+                            </div>
+                
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <h2 id="js-modal-title"></h2>
+
+                        <strong id="js-modal-genres"></strong>
+
+                        <div class="overview">
+                            <p id="js-modal-overview"></p>
+
+                            <button class="btn view-all" id="js-btn-view-all-overview">
+                                <img src="./assets/icon-arrow-down.svg" alt="">
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="production-companies" id="js-production-companies-div">
+                        <h3>Produtoras</h3>
+
+                        <ul class="companies" id="js-production-companies">
+                            <!-- <li>
+                                <img src="./assets/backdrops/8lvHyhjr8oUKOOy2dKXoALWKdp0.png" alt="">
+                            </li>
+
+                            <li>
+                                <img src="./assets/backdrops/8lvHyhjr8oUKOOy2dKXoALWKdp0.png" alt="">
+                            </li>
+
+                            <li>
+                                <img src="./assets/backdrops/8lvHyhjr8oUKOOy2dKXoALWKdp0.png" alt="">
+                            </li>
+                          -->
+
+                                
+                            
+                        </ul>
+                    </div>
+
+                    
+
+                
+                    <div class="acting-cast">
+                        <div class="title-acting">
+                            <h3>Elenco principal</h3>
+    
+    
+                        </div>
+    
+                        
+    
+                        <div class="swiper actors-swiper">
+
+                            <div class="swiper-wrapper" id="js-actors-area">
+<!--                                 
+                                <div class="swiper-slide">
+                                    <div class="people">
+                                        <div class="image">
+                                            <img src="./assets/backdrops/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg" alt="">
+                                        </div>
+                                        <span>eae</span>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="people">
+                                        <div class="image">
+                                            <img src="./assets/backdrops/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg" alt="">
+                                        </div>
+                                        <span>eae</span>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="people">
+                                        <div class="image">
+                                            <img src="./assets/backdrops/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg" alt="">
+                                        </div>
+                                        <span>eae</span>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="people">
+                                        <div class="image">
+                                            <img src="./assets/backdrops/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg" alt="">
+                                        </div>
+                                        <span>eae</span>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="people">
+                                        <div class="image">
+                                            <img src="./assets/backdrops/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg" alt="">
+                                        </div>
+                                        <span>eae</span>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="people">
+                                        <div class="image">
+                                            <img src="./assets/backdrops/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg" alt="">
+                                        </div>
+                                        <span>eae</span>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="people">
+                                        <div class="image">
+                                            <img src="./assets/backdrops/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg" alt="">
+                                        </div>
+                                        <span>eae</span>
+                                    </div>
+                                </div> -->
+                                
+                            </div>
+                            <div class="swiper-button-next">
+                            </div>
+                            <div class="swiper-button-prev"></div>
+    
+                        </div>
+    
+    
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="modal-trailer" id="js-modal-trailer">
+        <div class="overlay">
+
+        </div>
+
+        <div class="container">
+            <button class="btn-close" id="btn-close-trailer">
+                <img src="./assets/icon-close.svg" alt="Close icon">
+            </button>
+
+            <div class="video" id="js-video-iframe">
+                <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!-- 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <div class="dev">
+        <div class="container">
+            <span>Developed by @dev_vitorlinsbinski</span>
+
+        </div>
+    </div>
+
+    <button class="scroll-up" id="js-scroll-up">
+        <div class="arrow-up">
+            <img src="./assets/arrow-up-line.svg" alt="Arrow up icon">
+        </div>
+    </button>
+
+    <script src="./js/plugins.js"></script>
+    <script src="./js/scripts/index.js"></script>
+</body>
+</html>
+

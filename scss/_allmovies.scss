@@ -1,0 +1,64 @@
+.s-all-movies {
+    margin-top: 9rem;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all .3s cubic-bezier(0.68,-0.55,0.27,1.55);;
+    padding-bottom: 1rem;
+    position: fixed;
+
+    &.active {
+        opacity: 1;
+        transform: translateY(0);
+        position: initial;
+    }
+
+    .title {
+        margin-bottom: 3rem;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .select-genre {
+        margin: 0 auto;
+        margin-bottom: 3.2rem;
+    }
+
+
+
+    .area-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2.4rem;
+
+    @media(max-width: 1200px) {
+
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+
+    @media(max-width: 850px) {
+
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    @media(max-width: 650px) {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.6rem;
+        
+    }
+}
