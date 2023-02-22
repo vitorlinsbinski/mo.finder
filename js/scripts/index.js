@@ -1050,7 +1050,7 @@ async function createSlidesHero(movieId) {
   
     let tags = document.createElement('div');
     tags.classList = 'tags';
-
+    tags.style.animation = 'fadeLeft .6s cubic-bezier(.42,.61,.27,1.03)';
 
     let tagRating = document.createElement('div');
     tagRating.classList = 'tag';
@@ -1102,6 +1102,7 @@ async function createSlidesHero(movieId) {
     tags.append(tagRating, tagRuntime, tagReleaseDate);
   
     let text = document.createElement('div');
+    text.style.animation = 'fadeLeft .8s cubic-bezier(.42,.61,.27,1.03)';
     text.classList = 'text';
     text.setAttribute('data-swiper-parallax', '-15%');
     let h1 = document.createElement('h1');
@@ -1133,6 +1134,7 @@ async function createSlidesHero(movieId) {
     spanTagRuntime.textContent = details.runtime;
   
     let btns = document.createElement('div');
+    btns.style.animation = 'fadeLeft .8s cubic-bezier(.42,.61,.27,1.03)';
     btns.classList = 'btns';
     btns.setAttribute('data-swiper-parallax', '1%');
   
@@ -1221,7 +1223,6 @@ async function createSlidesHero(movieId) {
       btnPrimary.style.display = 'inline-block';
       let video = document.createElement('div');
       video.classList = 'video';
-
   
       function createIframe(key) {
         let iframeVideoEmbebed = document.createElement('iframe');
