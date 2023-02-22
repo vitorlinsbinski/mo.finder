@@ -167,6 +167,8 @@ main {
                             z-index: 5;
                             position: absolute;
                             top: -6.9rem;
+                            display: none;
+                            
                             &::before {
                                 content: '';
                                 position: absolute;
