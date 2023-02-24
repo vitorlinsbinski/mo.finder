@@ -27,4 +27,4 @@ Lastly, there's a search area when you click the button with a magnifying glass 
 
 [mo.Finder page](https://vitorlinsbinski.github.io/mo.finder/)
 
-<img src="./assets/screenshot-movienow.png">
+<img src="./assets/screenshot-movienow.png" width = "800px" height = "auto">
