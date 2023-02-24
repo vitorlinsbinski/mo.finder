@@ -26,3 +26,5 @@ Lastly, there's a search area when you click the button with a magnifying glass 
 - API (Application Programming Interface)
 
 [mo.Finder page](https://vitorlinsbinski.github.io/mo.finder/)
+
+<img src="./assets/screenshot-movienow.png">
